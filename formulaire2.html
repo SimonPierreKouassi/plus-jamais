@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Login | beCharity HTML5 responsive charity theme</title>
+
+    <!--Fav and touch icons-->
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+
+    <!--Common Styles Plugins-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <!--Custom Style-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="space.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header--fixed" class="header">
+        <div class="nav-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-5 col-lg-4">
+                        <div class="phone">
+                            <i class="fa fa-volume-control-phone"></i>+ 215 1256 845
+                        </div>
+                        <div class="email">
+                            <i class="fa fa-envelope"></i>info@becharity.com
+                        </div>
+                        <a href="donation.html" class="btn btn-red">Donate</a>
+                    </div>
+                    <div class="hidden-xs hidden-sm col-md-3 col-lg-4 ">
+                        <form class="top-search" action="#">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                    <div class="input-group-addon">
+                                        <input type="submit" value="Search">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="hidden-xs col-sm-6 col-md-4 col-lg-4">
+                        <div class="social">
+                            <a class="icon-facebook" href="#"><i class="fa fa-facebook-square"></i></a>
+                            <a class="icon-twitter" href="#"><i class="fa fa-twitter-square"></i></a>
+                            <a class="icon-pinterest" href="#"><i class="fa fa-pinterest-square"></i></a>
+                            <a class="icon-google-plus" href="#"><i class="fa fa-google-plus-square"></i></a>
+                        </div>
+                        <a class="join-top" href="login.html"><i class="fa fa-user-circle"></i>JOIN</a>
+                        <div class="dropdown currency-switchr">
+                            <button class="currency-btn" id="currency" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe"></i>URO
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="currency">
+                                <li><a href="#">USD</a></li>
+                                <li><a href="#">AUD</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown language-switchr">
+                            <button class="language-btn" id="language" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-globe"></i>ENG
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="language">
+                                <li><a href="#">SPN</a></li>
+                                <li><a href="#">GER</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main-nav" class="main-nav">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand" href="index.html"><img class="retina" src="images/logo montestament1.png" alt="logo"></a>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="main-navbar">
+                        <ul class="nav navbar-nav navbar-left ml-auto">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="event.html">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- page title -->
+    <!-- <div class="page-title-section">
+        <div class="page-title-wrap">
+            <div class="page-title-overlay"></div>
+            <div class="page-title-info">
+                <ol class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">Login</li>
+                </ol>
+                <h1 class="page-title">Login Page</h1>
+            </div>
+        </div>
+    </div> -->
+
+    <main class="main-content">
+         <!-- registar -->
+    <div class="registar-section pd-top-100 pd-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 contact-main">
+                    <h5 class="form-title"> Veuillez remplir ce formulaire pour faire une demande de laissez-passer. Puis cliquez sur Envoyer</h5>
+                    <form class="registar-form" action="#" method="POST">
+                        <label for="tel">Téléphone</label>
+                        <input id="tel" class="input" type="tel" placeholder="Telephone" />
+                        <label for="ville">Ville/commune</label>
+                        <input id="ville" class="input" type="text" placeholder="ville/commune" />
+                        <label for="name">Nom et prenoms</label>
+                        <input id="name" class="input" type="text" placeholder="Name" />
+                        <label for="choice">Votre Choix</label>
+                        <input id="choice" class="input" value="Volonté" type="text" placeholder="votre choix" />
+                        <!-- <div class="registar-check">
+                            <input id="remember-check" class="checkbox" type="checkbox" />
+                            <label for="remember-check">Remember me</label>
+                        </div> -->
+                       <div class="text-center registar-form_footer">
+                        <input class="btn" type="submit" value="ENVOYER" />
+                       </div>
+                        <!-- <span class="rbtn-title">Need help? go to <a href="faq.html">FAQ</a></span> -->
+                    </form>
+<!--                     <p class="rform-title">You are not a member! <a href="register.html">Register</a> here.</p>
+ -->                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    
+     <!-- Footer -->
+     <div class="footer-section">
+        <div class="footer-top pd-top-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 footer-widget">
+                        <div class="footer-logo">
+                            <img class="retina" src="images/logo montestament1.png" alt="logo">
+                            <p>Lorem ipsum dolor sit amet, his ferri probatus neglegentur te, eum affert legere nominavi ad, eu enim semper dictas ius. Legimus delicata an sit. Sea ex nonumes molestie. Cu salutandi scribentur.</p>
+                            <div class="footer-social">
+                                <a href="#"><i class="fa fa-twitter-square"></i></a>
+                                <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                                <a href="#"><i class="fa fa-vimeo-square"></i></a>
+                                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-widget">
+                        <div class="footer-address">
+                            <h3 class="footer-title">Adress</h3>
+                            <p>123 Imaginary Drive Danbury,
+                                <br> Connecticut, USA</p>
+                            <p>
+                                <i class="fa fa-phone"></i>+33 000 000 00
+                                <br>
+                                <i class="fa fa-envelope-o"></i>hello@example.com
+                            </p>
+                            <div class="footer-map">
+                                <a href="contact.html"><i class="fa fa-map-marker"></i>See in map</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-widget">
+                        <h3 class="footer-title">Quick link</h3>
+                        <ul>
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- <span><a href="#">Tarms & Condition</a></span> -->
+                        <span>&copy; copyright 2020, tous droits reservés WeenovIt</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Common JS Plugin-->
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/retina.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollUp.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/headroom.min.js"></script>
+    <script type="text/javascript" src="js/jQuery.headroom.min.js"></script>
+    <script type="text/javascript" src="js/sticky-kit.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYMloK_kzsasOQXg-xhGxnwvlAU3HTZWg&callback=initMap" async defer></script>
+
+    <!-- Custom JS -->
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
